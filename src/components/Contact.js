@@ -6,7 +6,7 @@ function Contact(props) {
     <div className="Contact">
       <img className="avatar" src={props.picture} />
       <div className="text">
-        <h1 className="name">{`${props.firstName} ${props.name}`}</h1>
+        <h1 className="name">{props.name}</h1>
         <div className="status">
           <span
             className={props.online ? "status-online" : "status-offline"}
